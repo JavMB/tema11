@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) {
-        Path rutaCompleta = Paths.get("/home/javi/tema11/ficheros/elpepe");
+        Path rutaCompleta = Paths.get("C:\\Users\\Javi.MB\\IdeaProjects\\tema11\\ficheros\\elpepe");
 
         if (Files.exists(rutaCompleta)) {
             System.out.println(rutaCompleta.getFileName());

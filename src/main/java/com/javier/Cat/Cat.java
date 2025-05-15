@@ -19,10 +19,10 @@ public class Cat {
                 while ((linea = br.readLine()) != null) {
                     System.out.println(linea);
                 }
-
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+
 
 
         } else {
